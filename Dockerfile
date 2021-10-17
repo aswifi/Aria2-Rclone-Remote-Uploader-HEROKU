@@ -1,4 +1,5 @@
-FROM kalilinux/kali-rolling
+//FROM kalilinux/kali-rolling
+FROM ubuntu:latest
 EXPOSE 8080
 RUN apt update -y  && \
     apt install curl -y  && \
